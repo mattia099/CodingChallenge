@@ -1,0 +1,82 @@
+/*Sfondo sito*/
+body{
+  background: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo{
+  width: 200px;
+  margin-left: 40%;
+}
+
+/*Testo sotto al logo*/
+.logo-text{
+  color: #00ea38;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align:center;
+}
+
+/*Barra verde*/
+.container{
+  text-align: center;
+  background-color:#00ea38;
+  padding:1%;
+  margin-left:10%;
+  margin-right: 10%;
+}
+
+/*Sfondo nero*/
+.rettnero{
+  background-color: rgba(0,0,0,0.5);
+  width: 50%;
+  height:50%;
+  margin:auto;
+  padding:5%;
+  border-radius: 20px;
+}
+
+
+.monopattino{
+  margin-left: 10%;
+  padding-top: 4%;
+}
+
+/*Testo accanto al checkbox*/
+span{
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+/*Via e stato di carica del monopattino*/
+p{
+  font-size: 19px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.rettangoloarancio{
+  background-color: orange;
+  color: orange;
+  border-radius: 4px;
+  font-size: 20px;
+  margin-right: 70%;
+}
+
+.rettangoloverde{
+  background-color: green;
+  color: green;
+  border-radius: 4px;
+  font-size: 20px;
+  margin-right: 50%;
+}
+
+.rettangolorosso{
+  background-color: red;
+  color: red;
+  border-radius: 4px;
+  font-size: 20px;
+  margin-right: 80%;
+}
